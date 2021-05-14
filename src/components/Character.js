@@ -23,7 +23,7 @@ export default function Character(props) {
                     <p>Skin Color: {traits.skin_color}</p>
                 </Info>
             )
-        })};
+        })}
         </Div>
     )
 
@@ -32,12 +32,9 @@ export default function Character(props) {
 
 const Div = styled.div`
     width: 100%;
-    height: 100%;
 `
 
 const Info = styled.div`
     font-size: 30px;
     font-weight: 'bold';
 `
-
-// test
